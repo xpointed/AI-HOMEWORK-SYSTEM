@@ -1,0 +1,4 @@
+
+
+PDF To TXT
+搜集资料了解到解析pdf主要用到的一个python包pdfminer由于解析PDF是一件非常耗时和内存的工作，因此PDFMiner使用了一种称作lazy parsing的策略，只在需要的时候才去解析，以减少时间和内存的使用。要解析PDF至少需要两个类：PDFParser 和 PDFDocument，PDFParser 从文件中提取数据，PDFDocument保存数据。另外还需要PDFPageInterpreter去处理页面内容，PDFDevice将其转换为我们所需要的。PDFResourceManager用于保存共享内容例如字体或图片。依赖包：pdfminer3k

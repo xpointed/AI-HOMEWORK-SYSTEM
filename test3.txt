@@ -1,0 +1,2 @@
+补间动画（Tween）与Interpolator（插入帧）
+Android使用Animation代表抽象的动画类，它包括如下几个子类。
